@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import TopInfos from '../components/TopInfos'
 import Pagination from '../components/Pagination'
-import { statuses, students, studentsTopInfos } from '../assets/MenuData';
+import { useSelector } from 'react-redux';
+import { statuses, studentsTopInfos } from '../assets/MenuData';
 
 const Students = () => {
-
+  
+    const students = useSelector(store => store.students)
     const [status, setStatus] = useState('All')
     const [studentsData, setStudentsData] = useState(students);
     const [currentPage, setCurrentPage] = useState(1);
     const [postsPerPage, setPostsPerPage] = useState(3);
+
 
     const lastPostIndex = currentPage * postsPerPage;
     const firstPostIndex = lastPostIndex - postsPerPage;

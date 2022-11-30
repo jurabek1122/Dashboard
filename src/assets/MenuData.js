@@ -17,7 +17,7 @@ export const data = [
         <path d="M12 18.5201C11.59 18.5201 11.25 18.1801 11.25 17.7701V12.3301C11.25 11.9201 11.59 11.5801 12 11.5801C12.41 11.5801 12.75 11.9201 12.75 12.3301V17.7701C12.75 18.1801 12.41 18.5201 12 18.5201Z" fill="#9197B3"/>
         <path d="M12.0002 18.7498C11.4202 18.7498 10.8503 18.6198 10.3903 18.3698L7.19025 16.5898C6.23025 16.0598 5.49023 14.7898 5.49023 13.6898V10.2998C5.49023 9.20981 6.24025 7.9398 7.19025 7.3998L10.3903 5.6198C11.3103 5.1098 12.6902 5.1098 13.6102 5.6198L16.8102 7.3998C17.7702 7.9298 18.5103 9.19981 18.5103 10.2998V13.6898C18.5103 14.7798 17.7602 16.0498 16.8102 16.5898L13.6102 18.3698C13.1502 18.6298 12.5802 18.7498 12.0002 18.7498ZM12.0002 6.7498C11.6702 6.7498 11.3502 6.8098 11.1202 6.9398L7.92026 8.7198C7.43026 8.9898 6.99023 9.7498 6.99023 10.2998V13.6898C6.99023 14.2498 7.43026 14.9998 7.92026 15.2698L11.1202 17.0498C11.5802 17.3098 12.4202 17.3098 12.8802 17.0498L16.0802 15.2698C16.5702 14.9998 17.0103 14.2398 17.0103 13.6898V10.2998C17.0103 9.73981 16.5702 8.9898 16.0802 8.7198L12.8802 6.9398C12.6502 6.8098 12.3302 6.7498 12.0002 6.7498Z" fill="#9197B3"/>
         </svg>,
-        "path": "/guruh",
+        "path": "guruh",
         "childrens": [
             {
                 "title": "Guruhlar",
@@ -32,11 +32,15 @@ export const data = [
         <path d="M15 2H9C4 2 2 4 2 9V15C2 18.78 3.14 20.85 5.86 21.62C6.08 19.02 8.75 16.97 12 16.97C15.25 16.97 17.92 19.02 18.14 21.62C20.86 20.85 22 18.78 22 15V9C22 4 20 2 15 2ZM12 14.17C10.02 14.17 8.42 12.56 8.42 10.58C8.42 8.60002 10.02 7 12 7C13.98 7 15.58 8.60002 15.58 10.58C15.58 12.56 13.98 14.17 12 14.17Z" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M11.9999 14.92C9.60992 14.92 7.66992 12.97 7.66992 10.58C7.66992 8.19002 9.60992 6.25 11.9999 6.25C14.3899 6.25 16.3299 8.19002 16.3299 10.58C16.3299 12.97 14.3899 14.92 11.9999 14.92ZM11.9999 7.75C10.4399 7.75 9.16992 9.02002 9.16992 10.58C9.16992 12.15 10.4399 13.42 11.9999 13.42C13.5599 13.42 14.8299 12.15 14.8299 10.58C14.8299 9.02002 13.5599 7.75 11.9999 7.75Z" fill="#9197B3"/>
         </svg>,
-        "path": "/students",
+        "path": "student",
         "childrens": [
             {
                 "title": "O`quvchilar",
                 "path": "/students"
+            },
+            {
+                "title": "O`quvchi Qo`shish",
+                "path": "/add-student"
             }
         ]
     },
@@ -49,7 +53,7 @@ export const data = [
         <path d="M22 10.9699V13.03C22 13.58 21.56 14.0299 21 14.0499H19.0399C17.9599 14.0499 16.97 13.2599 16.88 12.1799C16.82 11.5499 17.0599 10.9599 17.4799 10.5499C17.8499 10.1699 18.36 9.94995 18.92 9.94995H21C21.56 9.96995 22 10.4199 22 10.9699Z" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M2 10.5V8.5C2 5.78 3.64 3.88 6.19 3.56C6.45 3.52 6.72 3.5 7 3.5H16C16.26 3.5 16.51 3.50999 16.75 3.54999C19.33 3.84999 21 5.76 21 8.5V9.95001H18.92C18.36 9.95001 17.85 10.17 17.48 10.55C17.06 10.96 16.82 11.55 16.88 12.18C16.97 13.26 17.96 14.05 19.04 14.05H21V15.5C21 18.5 19 20.5 16 20.5H13.5" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>,
-        "path": "/bugalteriya",
+        "path": "bugalter",
         "childrens": [
             {
                 "title": "Bug`alteriya",
@@ -65,7 +69,7 @@ export const data = [
         <path d="M9.01001 10C8.45001 10 8 9.55 8 9C8 8.45 8.45 8 9 8C9.55 8 10 8.45 10 9C10 9.55 9.56001 10 9.01001 10Z" fill="#9197B3"/>
         <path d="M8.99945 15.7495C8.80945 15.7495 8.61945 15.6795 8.46945 15.5295C8.17945 15.2395 8.17945 14.7595 8.46945 14.4695L14.4695 8.46945C14.7595 8.17945 15.2395 8.17945 15.5295 8.46945C15.8195 8.75945 15.8195 9.23951 15.5295 9.52951L9.52945 15.5295C9.37945 15.6795 9.18945 15.7495 8.99945 15.7495Z" fill="#9197B3"/>
         </svg>,
-        "path": "/sozlamalar",
+        "path": "sozlama",
         "childrens": [
             {
                 "title": "Sozlamalar",
@@ -80,7 +84,7 @@ export const data = [
         <path d="M11.9998 12.1099C11.5898 12.1099 11.2498 11.7699 11.2498 11.3599V11.1499C11.2498 9.9899 12.0998 9.41989 12.4198 9.19989C12.7898 8.94989 12.9098 8.7799 12.9098 8.5199C12.9098 8.0199 12.4998 7.60986 11.9998 7.60986C11.4998 7.60986 11.0898 8.0199 11.0898 8.5199C11.0898 8.9299 10.7498 9.2699 10.3398 9.2699C9.92984 9.2699 9.58984 8.9299 9.58984 8.5199C9.58984 7.1899 10.6698 6.10986 11.9998 6.10986C13.3298 6.10986 14.4098 7.1899 14.4098 8.5199C14.4098 9.6599 13.5698 10.2299 13.2598 10.4399C12.8698 10.6999 12.7498 10.8699 12.7498 11.1499V11.3599C12.7498 11.7799 12.4098 12.1099 11.9998 12.1099Z" fill="#9197B3"/>
         <path d="M12 14.6001C11.58 14.6001 11.25 14.2601 11.25 13.8501C11.25 13.4401 11.59 13.1001 12 13.1001C12.41 13.1001 12.75 13.4401 12.75 13.8501C12.75 14.2601 12.42 14.6001 12 14.6001Z" fill="#9197B3"/>
         </svg>,
-        "path": "/yordam",
+        "path": "yordam",
         "childrens": [
             {
                 "title": "Yordam",
@@ -104,19 +108,19 @@ export const statuses = [
     {value: 'inactive', name: 'Inactive'}
 ]
 
-export const students = [
-    {name: 'Jane Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Inavtive'},
-    {name: 'John Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
-    {name: 'George Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
-    {name: 'Alex Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
-    {name: 'Mike Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Inavtive'},
-    {name: 'Michael Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
-    {name: 'Jack Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
-    {name: 'Justin Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Inavtive'},
-    {name: 'Brad Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
-    {name: 'Jo Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
-    {name: 'Bob Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
-    {name: 'Floyd Miles', field: 'Yahoo', number: '(255) 555-0100', price: '597 000', group: 'Frontend 010', status: 'Inavtive'}
+export const studentsData = [
+    {id: 1, name: 'Jane Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Inavtive'},
+    {id: 2, name: 'John Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
+    {id: 3, name: 'George Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
+    {id: 4, name: 'Alex Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
+    {id: 5, name: 'Mike Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Inavtive'},
+    {id: 6, name: 'Michael Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
+    {id: 7, name: 'Jack Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
+    {id: 8, name: 'Justin Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Inavtive'},
+    {id: 9, name: 'Brad Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
+    {id: 10, name: 'Jo Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
+    {id: 11, name: 'Bob Cooper', field: 'Microsoft', number: '(255) 555-0118', price: '597 000', group: 'Frontend 010', status: 'Avtive'},
+    {id: 12, name: 'Floyd Miles', field: 'Yahoo', number: '(255) 555-0100', price: '597 000', group: 'Frontend 010', status: 'Inavtive'}
 ]
 
 export const studentsTopInfos = [

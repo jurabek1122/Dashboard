@@ -635,3 +635,19 @@ body{
   color: #242424;
   margin-left: 120%;
 }
+.add-student h2 {
+  margin-left: 40px;
+}
+.add-form {
+  display: flex;
+  flex-direction: column;
+}
+.add-form input {
+  width: 500px;
+  margin: 10px 0 10px 40px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+.add-form button {
+  width: 100px
+}
