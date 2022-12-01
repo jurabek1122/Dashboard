@@ -1,8 +1,12 @@
 import TopInfos from '../components/TopInfos'
 import GuruhCard from '../components/GuruhCard'
-import { guruhlarTopInfos, guruhCards } from '../assets/MenuData';
+import { guruhlarTopInfos } from '../assets/MenuData';
+import { useSelector } from 'react-redux';
 
 const Guruhlar = () => {
+
+    const { guruhCards } = useSelector(store => store.students)
+
     return(
         <>
             <TopInfos data={guruhlarTopInfos} />

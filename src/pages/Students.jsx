@@ -6,16 +6,16 @@ import { statuses, studentsTopInfos } from '../assets/MenuData';
 
 const Students = () => {
   
-    const students = useSelector(store => store.students)
+    const { studentsData } = useSelector(store => store.students)
     const [status, setStatus] = useState('All')
-    const [studentsData, setStudentsData] = useState(students);
+    const [data, setData] = useState(studentsData);
     const [currentPage, setCurrentPage] = useState(1);
     const [postsPerPage, setPostsPerPage] = useState(3);
 
 
     const lastPostIndex = currentPage * postsPerPage;
     const firstPostIndex = lastPostIndex - postsPerPage;
-    const currentPosts = studentsData.slice(firstPostIndex, lastPostIndex);
+    const currentPosts = data.slice(firstPostIndex, lastPostIndex);
     return(
       <>
       <TopInfos data={studentsTopInfos} />
@@ -92,7 +92,7 @@ const Students = () => {
             </tbody>
           </table>
            <Pagination
-                totalPosts={studentsData.length}
+                totalPosts={data.length}
                 postsPerPage={postsPerPage}
                 setCurrentPage={setCurrentPage}
                 currentPage={currentPage}
